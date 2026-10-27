@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dmai"
+version = "0.1.0"
+description = "Dynamic Vector Router & General Models System."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "torch",
+    "torchvision",
+    "tqdm",
+    "pillow",
+]
+
+[project.scripts]
+dmai = "dmai.main:cli"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dmai"]

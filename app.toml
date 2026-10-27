@@ -1,0 +1,14 @@
+[app]
+dataset_dir = "dataset"
+log_dir = "log"
+space_dir = "space"
+max_train_samples = -1
+max_test_samples = -1
+
+[router]
+# Similarity threshold for vector routing
+similarity_threshold = 0.35
+# Maximum accumulated samples per class
+max_samples_per_class = 300
+# Automatically retrain the model when accumulated samples reach this count
+training_trigger_count = 3000
