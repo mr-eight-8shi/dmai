@@ -1,7 +1,3 @@
-日本語版の最新コンセプト（「汎用一般人モデル」「えイヤー精神」「類似ベクトルへの異種ラベル混入と個別の成長」）をそのまま反映した**英語版のREADME**です！
-
----
-
 # Dynamic Vector Router & General Models System
 
 A lightweight, modular, and stream-friendly image classification architecture designed to run smoothly even on consumer GPUs with limited VRAM.
